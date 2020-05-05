@@ -1,0 +1,65 @@
+
+/* .classone{
+    background-color: yellow;
+}
+
+ilk satırın sarı background olması için */
+.classone.classtwo
+{
+    background: green;
+}
+
+p span
+{
+    background: pink;
+    color: blue;
+    font-weight: bold;
+} 
+
+
+/* .classthree{
+    background: yellow; 
+div p.classthree{
+    background-color: yellow;
+}
+div p:nth-child(2){
+    background-color: yellow;
+}*/
+
+/* h1+p
+{
+background-color: yellow;
+
+} */
+/* 
+div>p{
+    background-color: red;
+} */
+
+/* span {
+    display: block;
+} */
+
+ul{
+    width: 100%;
+    background-color: rgb(69, 81, 241);
+    margin: 20px;
+    padding: 20px;
+}
+
+ul li{
+    display: inline;
+    padding: 20px;
+    margin: 30px;
+    /* cursor: pointer; */
+    text-transform: uppercase;
+    font-weight: 900px;
+}
+.class1{
+    width: 250px;
+    height: 200px;
+    /* display: block; */
+    /*display: none; görünürlüğü kapatır. */
+    background: violet;
+    /* visibility: hidden; div görünürlüğü saklar alanı gösterir */
+}
